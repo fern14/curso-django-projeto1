@@ -122,6 +122,9 @@ STATICFILES_DIRS = [BASE_DIR / 'base_static',]
 # python manage.py collectstatic para coletar os arquivos staticos e cria uma nova pasta com todos eles, para quando subir para produção, antes de fazer isso dar namespacing para os arquivos
 STATIC_ROOT = BASE_DIR / 'static'
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
